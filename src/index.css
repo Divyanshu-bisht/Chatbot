@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root{
+    display: flex;
+}
+
+.lightmode{
+    --color: rgb(36, 41, 41);
+    --background-color: #fff;
+    --btn-background-color: black;
+    --btn-color: white;
+    --hover-btn-background-color:rgba(0, 0, 0, 0.534);
+}
+
+.darkmode{
+    --color: white;
+    --background-color: rgb(36, 41, 41);
+    --btn-background-color: white;
+    --btn-color: black;
+    --hover-btn-background-color:rgba(255, 255, 255, 0.521);
+}
+
